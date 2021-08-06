@@ -1,0 +1,24 @@
+:root {
+  --yellow: #F49B19;
+  --brown: #613431;
+}
+
+.navbar-brand {
+	width: 4rem;
+	height: 4rem;
+}
+
+#navbar-items {
+  justify-content: flex-end;
+}
+
+#hero {
+  background-color: var(--yellow);
+  color: var(--brown);
+  padding: 6rem 2.25rem;
+}
+
+#hero-description {
+	max-width: 30rem;
+	margin: 1.5rem 0;
+}
