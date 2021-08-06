@@ -3,13 +3,23 @@
   --brown: #613431;
 }
 
+body {
+  font: 1.2rem/1.6 'Montserrat', sans-serif;	
+  font-weight: 400;
+}
+
+h1, h2 {
+	font-size: 2.25rem;
+	font-weight: 600;
+}
+
+.navbar {
+	position: fixed;
+}
+
 .navbar-brand {
 	width: 4rem;
 	height: 4rem;
-}
-
-#navbar-items {
-  justify-content: flex-end;
 }
 
 #hero {
@@ -21,4 +31,8 @@
 #hero-description {
 	max-width: 30rem;
 	margin: 1.5rem 0;
+}
+
+.btn {
+	border-radius: 12px;
 }
