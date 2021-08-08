@@ -13,10 +13,6 @@ h1, h2 {
 	font-weight: 600;
 }
 
-.navbar {
-	position: fixed;
-}
-
 .navbar-brand {
 	width: 4rem;
 	height: 4rem;
@@ -31,6 +27,18 @@ h1, h2 {
 #hero-description {
 	max-width: 30rem;
 	margin: 1.5rem 0;
+}
+
+#tanned-woman {
+	margin-top: -54px;
+  float: right;
+  height: 25rem;
+}
+
+@media screen and (max-width: 768px) {
+	#tanned-woman {
+		display: none;
+	}
 }
 
 .btn {
