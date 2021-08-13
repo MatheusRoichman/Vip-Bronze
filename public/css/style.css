@@ -31,9 +31,9 @@ h1, h2 {
 }
 
 #tanned-woman {
-	margin-top: -54px;
+	margin-top: -47px;
   float: right;
-  height: 25rem;
+  height: 20rem;
 }
 
 @media screen and (max-width: 768px) {
