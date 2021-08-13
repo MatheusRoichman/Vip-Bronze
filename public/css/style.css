@@ -3,9 +3,10 @@
   --brown: #613431;
 }
 
-body {
-  font: 1.2rem/1.6 'Montserrat', sans-serif;	
+@font-face {
+  font: 1.2rem/1.6 'Montserrat', sans-serif;
   font-weight: 400;
+  font-display: swap;
 }
 
 h1, h2 {
@@ -14,8 +15,8 @@ h1, h2 {
 }
 
 .navbar-brand {
-	width: 4rem;
-	height: 4rem;
+	width: 5rem;
+	height: 5rem;
 }
 
 #hero {
@@ -43,4 +44,4 @@ h1, h2 {
 
 .btn {
 	border-radius: 12px;
-}
+}	
