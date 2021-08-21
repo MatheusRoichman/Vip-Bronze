@@ -9,39 +9,67 @@
   font-display: swap;
 }
 
-h1, h2 {
-	font-size: 2.25rem;
+h1, h2, h3 {
 	font-weight: 600;
+	color: var(--brown);
+}
+
+h1 { 
+	font-size: 2.25rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 .navbar-brand {
-	width: 5rem;
-	height: 5rem;
+	width: 4rem;
+	height: 4rem;
 }
 
 #hero {
   background-color: var(--yellow);
-  color: var(--brown);
   padding: 6rem 2.25rem;
 }
 
 #hero-description {
+	color: var(--brown);
 	max-width: 30rem;
 	margin: 1.5rem 0;
 }
 
 #tanned-woman {
 	margin-top: -63px;
-  float: right;
   height: 21rem;
-}
-
-@media screen and (max-width: 768px) {
-	#tanned-woman {
-		display: none;
-	}
 }
 
 .btn {
 	border-radius: 12px;
 }	
+
+.section-title {
+	margin: 50px auto 15px;
+}
+
+.card {
+	margin: 20px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 14px;
+}
+
+#procedures-cards .card-header {
+	background: var(--yellow);
+}
+
+#combos-cards .card-header {
+	background: var(--brown);
+	color: #fff;
+}
+
+#combos-cards .card-text {
+	font-size: 1.3rem;
+}
