@@ -87,10 +87,46 @@ h3 {
 	font-size: 1.3rem;
 }
 
+#banner, #feedbacks {
+	width: 100vw;
+}
+
+#banner {
+	height: 35vh;
+	margin-top: 40px;
+}
+
+@media screen and (orientation: landscape) and (max-height: 1920px) {
+	#banner {
+		height: 100%;
+	}
+}
+
 #feedbacks {
 	background-image: url('../img/feedbacks-bg.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #feedbacks h2 {
 	color: #fff;
+}
+
+#feedbacks .card-group {
+	margin: 40px auto;
+}
+
+.feedback-card {
+	max-width: 270px;
+}
+
+.client-photo {
+	width: 7rem;
+	height: 7rem;
+	border-radius: 50%;
+	background: gray;
+	position: relative;
+	left: 0;
+	margin: auto;
+	top: -40px;
 }
