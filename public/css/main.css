@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+:root {
+  --yellow: #F49B19;
+  --brown: #613431;
+}
+
+@font-face {
+  font: 1.2rem/1.6 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-display: swap;
+}
+
+img {
+	image-rendering: pixelated;
+}
+
+h1, h2, h3 {
+	font-weight: 600;
+	color: var(--brown);
+}
+
+h1 { 
+	font-size: 2.25rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+.navbar-brand {
+	width: 4rem;
+	height: 4rem;
+}
+
+footer, footer a {
+	color: #fff;
+}
+
+footer svg {
+	width: 1.75rem;
+	height: 1.75rem;
+	fill: #fff;
+}

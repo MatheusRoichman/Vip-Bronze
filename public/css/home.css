@@ -1,41 +1,5 @@
-* {
-	margin: 0;
-	padding: 0;
-	outline: none;
-	box-sizing: border-box;
-}
-
-:root {
-  --yellow: #F49B19;
-  --brown: #613431;
-}
-
-@font-face {
-  font: 1.2rem/1.6 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-display: swap;
-}
-
-h1, h2, h3 {
-	font-weight: 600;
-	color: var(--brown);
-}
-
-h1 { 
-	font-size: 2.25rem;
-}
-
-h2 {
-	font-size: 2rem;
-}
-
 h3 {
 	font-size: 1.5rem;
-}
-
-.navbar-brand {
-	width: 4rem;
-	height: 4rem;
 }
 
 #hero {
@@ -92,14 +56,7 @@ h3 {
 }
 
 #banner {
-	height: 35vh;
 	margin-top: 40px;
-}
-
-@media screen and (orientation: landscape) and (max-height: 1920px) {
-	#banner {
-		height: 100%;
-	}
 }
 
 #feedbacks {
@@ -110,6 +67,11 @@ h3 {
 
 #feedbacks h2 {
 	color: #fff;
+}
+
+#feedbacks h6 {
+	color: #fff;
+	font-weight: 300;
 }
 
 #feedbacks .card-group {
@@ -124,9 +86,12 @@ h3 {
 	width: 7rem;
 	height: 7rem;
 	border-radius: 50%;
-	background: gray;
 	position: relative;
 	left: 0;
 	margin: auto;
 	top: -40px;
+}
+
+blockquote p {
+	text-overflow: ellipsis;
 }
