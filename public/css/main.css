@@ -53,7 +53,7 @@ label .icon-menu{
 }
 .container-menu{
 	top: 0;
-	left: -120vw;
+	right: -120vw;
 	width: 100vw;
 	height: 100vh;
 	z-index: 5000;
@@ -61,12 +61,12 @@ label .icon-menu{
 	transition: 1s;
 	position: fixed;
 	align-items: center;
-	background:  var(--yellow);
+	background: var(--yellow);
 	justify-content: center;
 }
 .container-menu .close{
 	top: 2%;
-	left: -35vw;
+	right: -35vw;
 	transition: 1s;
 	position: fixed;
 }
@@ -88,7 +88,7 @@ label .icon-menu{
 	letter-spacing: 2px;
 }
 #activate-menu:checked ~ .container-menu{
-	left: 0;
+	right: 0;
 }
 #activate-menu:checked ~ .container-menu .close{
 	left: 85%;
@@ -105,7 +105,7 @@ label .icon-menu{
 	}
 
 	.container-menu{
-		left: 0;
+		right: 0;
 		width: auto;
 		height: 3rem;
 		display: flex;
