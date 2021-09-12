@@ -56,3 +56,7 @@ function viewMore(cardList, event) {
 	event.target.classList.remove('d-flex');
 	event.target.classList.add('d-none');
 }
+
+function toggleOverlay() {
+	document.body.classList.toggle('sidebar-active');
+}
