@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 :root {
   --yellow: #F49B19;
   --brown: #613431;
