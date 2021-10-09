@@ -141,9 +141,13 @@ label .icon-menu{
 	}
 
 	.menu .nav-item{
-		margin-bottom: 0rem;
+		margin-bottom: 0;
 	}
-} 
+}
+
+.contact-option h4 {
+  margin-left: 25px;
+}
 
 footer {
 	position: relative;

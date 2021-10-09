@@ -22,7 +22,7 @@ const proceduresCards = `
       <p class="card-text">Bronze gelado no corpo inteiro.</p>
       </div>
     </article>
-  </div>`
+  </div>`;
   
 const combosCards = `
 <div class="col mb-5">
@@ -41,7 +41,7 @@ const combosCards = `
 		</div>
 	</article>
 </div>
-`
+`;
 
 function viewMore(cardList, event) {
   const cardDiv = document.querySelector(cardList);
@@ -52,11 +52,16 @@ function viewMore(cardList, event) {
     case '#combos-cards':
     	cardDiv.innerHTML += combosCards;
       break;
-  };
+  }
 	event.target.classList.remove('d-flex');
 	event.target.classList.add('d-none');
 }
 
 function toggleOverlay() {
 	document.body.classList.toggle('sidebar-active');
+}
+
+function handleOverlayClick() {
+	toggleOverlay();
+	document.querySelector('#activate-menu').checked = false;
 }
