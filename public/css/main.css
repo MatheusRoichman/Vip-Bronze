@@ -1,30 +1,21 @@
 * {
-	margin: 0;
+  margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 body {
 	overflow-x: hidden;
 }
-
 :root {
   --yellow: #F49B19;
   --brown: #613431;
 }
-
 @font-face {
-  font: 1.2rem/1.6 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-display: swap;
-}
-
-img {
-	image-rendering: pixelated;
-	max-width: 100vw;
-	max-height: 100%;
-}
-
+   font: 1.2rem/1.6 'Montserrat', sans-serif;
+   font-weight: 400;
+   font-display: swap;
+ }
+ 
 .sidebar-active .overlay {
 	background-color: rgba(0,0,0,0.3);
   position: fixed;
@@ -36,74 +27,80 @@ img {
   z-index: 5000;
   transition: background-color .3s,;
 }
-
+img {
+	image-rendering: pixelated;
+  max-width: 100vw;
+  max-height: 100%;
+}
 h1, h2, h3 {
-	font-weight: 600;
+  font-weight: 600;
 	color: var(--brown);
 }
-
 h1 { 
-	font-size: 2.25rem;
+  font-size: 2.25rem;
 }
-
 h2 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
-
 .navbar-brand {
-	width: 4rem;
-	height: 4rem;
+  width: 4rem;
+  height: 4rem;
 }
-
 input[type="checkbox"]{
-	display: none;
+  display: none;
 }
 .container-logo{
-	display: flex;
-	padding: 0 1rem;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 label .icon-menu{
-	font-size: 1.8rem;
-	margin-top: .8rem;
+  font-size: 1.8rem;
+  margin-top: .8rem;
 }
 .container-menu{
-	top: 0;
-	right: -120vw;
-	width: 60vw;
-	height: 100vh;
-	z-index: 5000;
-	display: flex;
-	transition: 1s;
-	position: fixed;
-	align-items: center;
-	background: var(--yellow);
-	justify-content: center;
+  top: 0;
+  right: -120vw;
+  width: 60vw;
+  height: 100vh;
+  z-index: 5000;
+  display: flex;
+  transition: 1s;
+  position: fixed;
+  align-items: center;
+  background: var(--yellow);
+  justify-content: center;
 }
 .container-menu .close{
-	top: 2%;
-	right: -35vw;
-	transition: 1s;
-	position: fixed;
+  top: 2%;
+  right: -35vw;
+  transition: 1s;
+  position: fixed;
 }
 .container-menu .menu{
-	display: flex;
-	list-style: none;
-	padding-left: 1rem;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
+  display: flex;
+  list-style: none;
+  padding-left: 1rem;
+  align-items: center;
+  flex-direction: column;
+ 	justify-content: center;
 }
 .menu .nav-item{
-	margin-bottom: 1rem;
-	font: 1.2rem/1.6 'Montserrat', sans-serif;
-	font-weight: bold;
+  margin-bottom: 1rem;
+  font: 1.2rem/1.6 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 .nav-item .nav-link{
-	color: var(--brown);
-	letter-spacing: 2px;
+ 	color: var(--brown);
+  letter-spacing: 2px;
 }
+
+label .icon-menu{
+  font-size: 1.8rem;
+  margin-top: .8rem;
+}
+
 #activate-menu:checked ~ .container-menu{
 	right: 0;
 }

@@ -8,13 +8,21 @@
 
 
 <url>
-  <loc>https://vipbronze-sorriso.netlify.app/</loc>
-  <lastmod>2021-08-30T09:56:45+00:00</lastmod>
+  <loc>https://vipbronzesorriso.com
+  br/</loc>
+  <lastmod>2021-10-11T18:22:34+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://vipbronze-sorriso.netlify.app/index.html</loc>
-  <lastmod>2021-08-30T09:56:45+00:00</lastmod>
+  <loc>https://vipbronzesorriso.com.br/index.html</loc>
+  <lastmod>2021-10-11T18:22:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+
+  <loc>https://vipbronzesorriso.com.br/quem-somos.html</loc>
+
+  <lastmod>2021-10-11T18:22:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
