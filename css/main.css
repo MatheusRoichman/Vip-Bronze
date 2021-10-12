@@ -26,7 +26,7 @@ body {
   z-index: 5000;
   transition: background-color .3s,;
 }
-img {
+img:not(#tanned-woman) {
 	image-rendering: pixelated;
 	width: 100%;
   max-width: 100vw;
