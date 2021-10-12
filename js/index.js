@@ -1,4 +1,5 @@
-const proceduresCards = `
+function viewMore(cardList, event) {
+  const proceduresCards = `
 <div class="col mb-5">
   <article class="card h-100">
     <h3 class="card-header text-center">Click 10</h3>
@@ -24,7 +25,7 @@ const proceduresCards = `
     </article>
   </div>`;
   
-const combosCards = `
+  const combosCards = `
 <div class="col mb-5">
 	<article class="card h-100">
   	<h3 class="card-header text-center">Bronze Blue Neon</h3>
@@ -43,7 +44,6 @@ const combosCards = `
 </div>
 `;
 
-function viewMore(cardList, event) {
   const cardDiv = document.querySelector(cardList);
   switch (cardList) {
     case '#procedures-cards':
