@@ -59,6 +59,11 @@ h3 {
 	margin-top: 40px;
 }
 
+#banners img {
+  width: 100vw;
+  height: 100%;
+}
+
 #feedbacks {
 	background-image: url('../img/feedbacks-bg.webp');
 	background-size: cover;
