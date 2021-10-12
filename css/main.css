@@ -3,18 +3,16 @@
 	padding: 0;
   box-sizing: border-box;
 }
-body {
-	overflow-x: hidden;
-}
 :root {
   --yellow: #F49B19;
   --brown: #613431;
 }
-@font-face {
-   font: 1.2rem/1.6 'Montserrat', sans-serif;
+ body {
+	overflow-x: hidden;
+	font: 1.2rem/1.6 'Montserrat', sans-serif;
    font-weight: 400;
    font-display: swap;
- }
+}
 .sidebar-active .overlay {
 	background-color: rgba(0,0,0,0.3);
   position: fixed;
