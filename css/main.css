@@ -15,7 +15,6 @@ body {
    font-weight: 400;
    font-display: swap;
  }
- 
 .sidebar-active .overlay {
 	background-color: rgba(0,0,0,0.3);
   position: fixed;
@@ -29,7 +28,9 @@ body {
 }
 img {
 	image-rendering: pixelated;
+	width: 100vw;
   max-width: 100vw;
+  max-height: 100%;
   max-height: 100%;
 }
 h1, h2, h3 {
